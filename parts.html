@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- John Kulowiec WEB.140.0001 Vicious Cycles project-->
+<!-- Parts & Accessories page -->
+<html lang=en>
+<!-- Title element-->
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicious Cycles- Home</title>
+</head>
+    <body> 
+        <div class="container">   
+            <header>
+                <a href="index.html"><img src="Vicious-Cycle-Logo.jpg" alt="Vicious Cycles logo" width="250"></a>
+                <h1>Vicious Cycles</h1>
+            </header>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="forsale.html">Bikes for Sale</a>
+            <a href="parts.html">Parts & Accessories</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        
+
+        <!-- Show logos of vendors as links to their websites -->
+        <section class="dealers">
+            <h2 class="partsh2">Browse the sites of our suppliers and send us the item #, we can get you the best price!</h2>
+            <a href="https://www.customchrome.com/index.asp" target="_blank"><img class="dealer1" src="images/cc_logo.jpg" alt="custom chrome logo" width="400"></a><a href="https://www2.vtwinmfg.com/home" target="_blank"><img class="dealer2" src="images/vtwin.jpg" alt="v twin manufacturing logo" width="190"></a><a href="https://paughcoparts.com/" target="_blank"><img class="dealer2" src="images/paughco.jpg" alt="paughco parts logo" width="175"></a>
+        </section>
+
+        <!-- Order form -->
+        <div class="orderForm">
+        <section>
+            <form action="/action_page.php" id="orderform" method="POST"> <!-- inputs would be recorded as text by /action_page.php for processing by VC sales staff-->
+                <label class="orderForm" for="fname">First name: </label>
+                <input type="text" id="fname" name="fname">
+                <label class="orderForm" for="lname">Last name: </label>
+                <input type="text" id="lname" name="lname">
+                <label class="orderForm" for="phone">Phone: </label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+            </form>
+            <form action="/action_page.php" id="orderform1" method="POST">
+                <label class="orderForm" for="vendor">Catalog: </label>
+                <select id="vendor" name="vendorlist">
+                    <option value="cci">Custom Chrome</option>
+                    <option value="vtwin">V-Twin</option>
+                    <option value="paughco">Paughco</option>
+                </select>
+                <label class="orderForm" for="partnum">Part #: </label>
+                <input type="text" id="partnum" name="partnum">
+                <label class="orderForm" for="qty">Qty: </label>
+                <input type="number" id="qty" name="qty">
+            </form>
+            <form action="/action_page.php" id="orderform2" method="POST">
+                <label class="orderForm" for="vendor">Catalog: </label>
+                <select id="vendor1" name="vendorlist">
+                    <option value="cci">Custom Chrome</option>
+                    <option value="vtwin">V-Twin</option>
+                    <option value="paughco">Paughco</option>
+                </select>
+                <label class="orderForm" for="partnum">Part #: </label>
+                <input type="text" id="partnum1" name="partnum1">
+                <label class="orderForm" for="qty">Qty: </label>
+                <input type="number" id="qty1" name="qty1"><br>
+            </form>
+            <form action="/action_page.php" id="orderform3" method="POST">
+                <label class="orderForm" for="vendor">Catalog: </label>
+                <select id="vendor2" name="vendorlist">
+                    <option value="cci">Custom Chrome</option>
+                    <option value="vtwin">V-Twin</option>
+                    <option value="paughco">Paughco</option>
+                </select>
+                <label class="orderForm" for="partnum">Part #: </label>
+                <input type="text" id="partnum2" name="partnum2">
+                <label class="orderForm" for="qty">Qty: </label>
+                <input type="number" id="qty2" name="qty2"><br>
+            </form>
+            <form action="/action_page.php" id="orderform4" method="POST">
+                <label class="orderForm" for="vendor">Catalog: </label>
+                <select id="vendor3" name="vendorlist">
+                    <option value="cci">Custom Chrome</option>
+                    <option value="vtwin">V-Twin</option>
+                    <option value="paughco">Paughco</option>
+                </select>
+                <label class="orderForm" for="partnum">Part #: </label>
+                <input type="text" id="partnum3" name="partnum3">
+                <label class="orderForm" for="qty">Qty: </label>
+                <input type="number" id="qty3" name="qty3"><br><br>
+                <input type="submit" value="Submit">                    
+            </form>
+            
+        </section>
+    </div>        
+
+        <footer>
+            <p>Vicious Cycles<br>123 Main St<br>Wakeville, NC 27603<br><a href="mailto:viciouscycles@example.com">Email us</a><br><a href="tel:+9195551212">Call us at 919-555-1212</a></p>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/f_logo_RGB-Blue_58.png" alt="facebook logo"  width="50"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="images/Twitter_Logo_Blue.png" alt="twitter logo"  width="50"></a>
+        </footer>
+        
+    </body>
+
+</html>

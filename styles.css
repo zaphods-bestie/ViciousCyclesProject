@@ -1,14 +1,123 @@
 /* Style sheet for Vicious Cycles website project */
 /* John Kulowiec WEB.140.0001 6/25/20 */
 
+/* main body for all pages */
 body {
-    background-color: #E7FBFB;
-    }
+    background-color: #6F6A72;
+    margin: 0 1.5in 0 1.5in;
+}
+
+.container {
+    max-width: 100%;
+    background-color:#1F1253;
+}
 
 
 h1 {
+    font-family: 'New Rocker', cursive;
     font-size: 4em;
     text-align: center;
-    color: #010B5B;
-    
+    color: #FF1717;
+    text-shadow: 1.5px 1.5px yellow;    
 }
+
+.homeh2, .saleh2, .partsh2 {
+    font-family: 'Aclonica', sans-serif;
+    text-align: center;
+    color: #1F1253;
+    text-shadow: .5px .5px white;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.sporty {
+    float: left;
+    padding: 10px 10px 20px 0px;
+}
+
+.orderForm {
+  padding: 25px 0 25px 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  color: #1F1253;
+  text-shadow: none;
+}
+
+p, label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    color: #ffffcc;
+    text-shadow: 2px 2px black;
+}
+
+.dealer1 {
+  padding: 10px 40px 10px 10px;
+}
+
+.dealer2 {
+  padding: 0 20px 0 20px;
+}
+
+input[type=text], input[type=email] {
+    background-color: aquamarine;
+}
+
+input[type=submit], input[type=file] {
+    background-color: darkkhaki;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+/* Arrange images on Bikes for Sale page */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Arrange to two columns */
+  .column {
+    flex: 50%;
+    max-width: 40%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* RWD - single column */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+
+  }
+
+  
