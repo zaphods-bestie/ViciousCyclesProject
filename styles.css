@@ -1,17 +1,17 @@
 /* Style sheet for Vicious Cycles website project */
-/* John Kulowiec WEB.140.0001 6/25/20 */
+/* John Kulowiec WEB.140.0001 6/25/20 - update 7/8/20 */
 
 /* main body for all pages */
 body {
-    background-color: #6F6A72;
+    background-color: #ededf1;
     margin: 0 1.5in 0 1.5in;
 }
 
+/* Style for hero banner all pages */
 .container {
     max-width: 100%;
     background-color:#1F1253;
 }
-
 
 h1 {
     font-family: 'New Rocker', cursive;
@@ -21,7 +21,8 @@ h1 {
     text-shadow: 1.5px 1.5px yellow;    
 }
 
-.homeh2, .saleh2, .partsh2 {
+/* h2 top of page all pages */
+.homeh2, .saleh2, .partsh2, .contacth2 {
     font-family: 'Aclonica', sans-serif;
     text-align: center;
     color: #1F1253;
@@ -33,6 +34,7 @@ h2 {
     font-weight: bold;
 }
 
+/* navigation all pages */
 nav {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
@@ -40,44 +42,26 @@ nav {
     background-color: aquamarine;
 }
 
+/* Top image on index.html */
 .sporty {
     float: left;
     padding: 10px 10px 20px 0px;
 }
 
-.orderForm {
-  padding: 25px 0 25px 25px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1em;
-  font-style: normal;
-  color: #1F1253;
-  text-shadow: none;
-}
-
-p, label {
+.opening {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-style: italic;
-    color: #ffffcc;
-    text-shadow: 2px 2px black;
+    color: #020742;
+    margin-bottom: 100px;
 }
 
-.dealer1 {
-  padding: 10px 40px 10px 10px;
+.gallery {
+  display: inline;
+  margin-top: 100px;
 }
 
-.dealer2 {
-  padding: 0 20px 0 20px;
-}
-
-input[type=text], input[type=email] {
-    background-color: aquamarine;
-}
-
-input[type=submit], input[type=file] {
-    background-color: darkkhaki;
-}
-
+/* Footer all pages */
 footer {
     padding-top: 50px;
 }
@@ -119,5 +103,48 @@ footer {
     text-align: center;
 
   }
+
+  /* Style for parts.html */
+  .dealer1 {
+    padding-top: 50px;
+  }
+  
+  .dealer2 {
+    padding: 0 20px 0 20px;
+  }
+  
+  input[type=text], input[type=email] {
+      background-color: white;
+  }
+  
+  input[type=submit], input[type=file] {
+      background-color: darkkhaki;
+  }
+
+  .orderForm {
+    padding: 25px 0 25px 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    color: #1F1253;
+    text-shadow: none;
+  }
+
+  .orderForm1 {
+    padding: 25px 0 25px 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    color: #1F1253;
+    text-shadow: none;
+    display: inline;
+  }
+
+  p, label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+    color: #020742;
+    }
 
   
