@@ -29,11 +29,6 @@ h1 {
     text-shadow: .5px .5px white;
 }
 
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
 /* navigation all pages */
 nav {
     font-family: Arial, Helvetica, sans-serif;
@@ -70,7 +65,7 @@ footer {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0 4px;    
   }
   
   /* Arrange to two columns */
@@ -88,9 +83,9 @@ footer {
   
   /* RWD - single column */
   @media screen and (max-width: 600px) {
-    .column {
+    .column, .row {
       flex: 100%;
-      max-width: 100%;
+      max-width: 100%;      
     }
   }
 
