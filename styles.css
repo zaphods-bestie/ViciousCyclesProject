@@ -65,7 +65,7 @@ footer {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;    
+    justify-content: center;    
   }
   
   /* Arrange to two columns */
